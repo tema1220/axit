@@ -8,14 +8,17 @@ body{
     width: 100%
     
 }
-.page{
+.awesome-page{
     width: 1170px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
-.page__title{
-    width: 1170px;
-    height: 150px;
+.page-subject{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page-subject__title{
     color: #000;
     text-align: center;
     font-family: Raleway;
@@ -23,19 +26,25 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0 auto;
-    padding-top: 57px;
-    padding-bottom: 57px;
+    text-transform: uppercase;
+    width: 1170px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:center
 }
-.page__line{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.page-subject__line{
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 0 auto;
     margin-bottom: 40px;
 }
-.page__subtitle{
-    width: 1170px;
-    height: 21px;
+.page-subject__subtitle{
     color: #86878B;
     text-align: center;
     font-family: Raleway;
@@ -43,10 +52,9 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0 auto;
-    padding-top: 1.5px;
-    padding-bottom: 1.5px;
-    margin-bottom: 71px;
+    width: 1170px;
+    height: 21px;
+    margin-bottom: 79px;
 }
 .nav{
     width: 100%;

@@ -12,12 +12,12 @@ body{
     width: 1170px;
     margin: 0 auto;
 }
-.pricing-page-subject{
+.page-subject{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.pricing-page-subject__title{
+.page-subject__title{
     color: #000;
     text-align: center;
     font-family: Raleway;
@@ -36,14 +36,14 @@ body{
     align-items: center;
     justify-content:center
 }
-.pricing-page-subject__line{
+.page-subject__line{
     width: 170px;
     height: 1px;
     background-color: #EC7979;
     margin: 0 auto;
     margin-bottom: 40px;
 }
-.pricing-page-subject__subtitle{
+.page-subject__subtitle{
     color: #86878B;
     text-align: center;
     font-family: Raleway;
@@ -68,9 +68,9 @@ body{
     margin-bottom: 50px;
     align-items:center
 }
-.pricing-page-content-collum__boxshadow{
+/* .pricing-page-content-collum__boxshadow{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
+} */
 .pricing-page-content-collum__title{
     display: flex;
     align-items: center;
@@ -132,5 +132,10 @@ body{
     line-height: normal;
     text-transform: capitalize;
     background: #FFF;
+}
+.pricing-page-content-collum_hover:hover{
+position: relative;
+bottom: 20px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
