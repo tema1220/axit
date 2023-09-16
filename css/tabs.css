@@ -150,6 +150,9 @@ body{
     display: block;
     text-decoration: none;
 }
+.content-info__link_hover:hover{
+    background:#AB4949;
+}
 .content-picture{
     display: inline-block;
     margin-left: -2px;
