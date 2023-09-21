@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box
+}
+body{
+    display: block;
+}
+.axit{
+    width: 100%;
+    height: 75px;
+    background: #000;
+}
+.axit-page{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.axit-page-logo{
+    width: 270px;
+    height: 75px;
+}
+.axit-page-nav{
+    width: 670px;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+}
+.axit-page-nav__link{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 24px;
+}
