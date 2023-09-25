@@ -116,6 +116,7 @@ body{
     border-bottom: 1px solid #C6CBCD;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
+    
 }
 .content-info{
     width: 670px;
@@ -184,4 +185,5 @@ body{
     height: 500px ;
     margin-right: 1px;
     margin-bottom: 0px;
+    
 }

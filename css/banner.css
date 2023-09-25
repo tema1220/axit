@@ -1,0 +1,225 @@
+*{
+    box-sizing:border-box
+}
+body{
+    display: block;
+}
+::placeholder{
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner{
+    width: 100%;
+    height: 1026px;
+    
+}
+.baner-img{
+    width: 100%;
+    height: 951px;
+    position: relative;
+    background:rgba(0, 0, 0, 0.473)
+    
+}
+.baner-img__pictures{
+    width: 100%;
+    height: 951px;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.baner-page{
+    width: 1170px;
+    margin: 0 auto;
+    height: 951px;
+    display: flex;
+    align-items:center;
+    
+    
+}
+.banner-page-left-content{
+    width: 670px;
+    height: 951px;
+    display: flex;
+    flex-direction:column;
+
+    justify-content: center;
+
+}
+
+
+.baner-page-left-content__logo{
+    margin-bottom: 73px;
+
+}
+.baner-page-left-content__title{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+.baner-page-left-content__subtitle{
+    width: 270px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 42px;
+}
+.baner-page-left-content__line{
+    width: 170px;
+    height: 1px;
+    background-color: #FFF;
+    /* margin: 0 auto; */
+    margin-bottom: 42px;
+}
+.baner-page-left-content__link{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* text-align: center; */
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 2px solid #FFF;
+    width: 270px;
+    height: 58px;
+}
+.baner-page-left-content__link:hover{
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+
+.baner-page-right{
+    width: 500px;
+    height: 951px;
+    display: block;
+    
+}
+.baner-page-right-content{
+    width: 470px;
+    height: 450px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 207px;
+    position: relative;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.baner-page-right-content-text{
+        width: 367px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+
+}
+.baner-page-right-content__title{
+    /* width: 367px;
+    height: 90px; */
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    
+}
+.baner-page-right-content__allocation{
+    color: #EC7979;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+.baner-page-right-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.baner-page-right-form-style{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 38px;
+    margin-bottom: 33px;
+
+}
+.baner-page-right-form__name{
+    width: 370px;
+    height: 35px;
+    border: 0px;
+    /* margin-bottom: 16px; */
+    outline: none;
+
+}
+.baner-page-right-form__line{
+    width: 370px;
+    height: 1px;
+    background: #BDBDBD;
+
+}
+.baner-page-right-form__email{
+    width: 370px;
+    height: 35px;
+    border: 0px;
+    /* margin-bottom: 16px; */
+    outline: none;
+}
+.baner-page-right-form__password{
+    width: 370px;
+    height: 35px;
+    border: 0px;
+    /* margin-bottom: 16px; */
+    outline: none;
+}
+.baner-page-right-form__button{
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 0px 0px 10px 10px;
+    background: #EC7979;
+    width: 470px;
+    height: 60px;
+    
+    border: 0px
+}
+.baner-page-right-form__button:hover{
+    cursor: pointer; 
+    border-radius: 0px 0px 10px 10px;
+    background: #AB4949;
+
+}
+.baner-page-right-form-style_margin{
+    margin-bottom: 75px;
+}
