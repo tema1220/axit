@@ -10,6 +10,7 @@ body{
     background: #F8EFEF;
     display: flex;
     align-items: center;
+    margin-bottom: 99px;
 }
 .media-page{
     display: flex;

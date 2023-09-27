@@ -14,6 +14,7 @@ body{
 }
 .tabs{
     width: 1170px;
+    height: 540px;
     margin: 0 auto;
 }
 .tabs-nav{

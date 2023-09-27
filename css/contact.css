@@ -102,6 +102,6 @@ display: block;
     align-items: center;
     justify-content:center;
 }
-.contact-page-form-data-bottom__button:hover{
+.contact-page-form-data-bottom__button_hover:hover{
     background: #AB4949;
 }

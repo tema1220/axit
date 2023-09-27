@@ -29,7 +29,7 @@ body{
     height: 951px;
     position: absolute;
     object-fit: cover;
-    z-index: -1;
+    z-index: 0;
 
 }
 .baner-page{
@@ -100,7 +100,7 @@ body{
     width: 270px;
     height: 58px;
 }
-.baner-page-left-content__link:hover{
+.baner-page-left-content__link_hover:hover{
     border: 2px solid #EC7979;
     color: #EC7979;
 }
@@ -185,18 +185,10 @@ body{
     background: #BDBDBD;
 
 }
-.baner-page-right-form__email{
+.baner-page-right-form__data{
     width: 370px;
     height: 35px;
     border: 0px;
-    /* margin-bottom: 16px; */
-    outline: none;
-}
-.baner-page-right-form__password{
-    width: 370px;
-    height: 35px;
-    border: 0px;
-    /* margin-bottom: 16px; */
     outline: none;
 }
 .baner-page-right-form__button{
@@ -214,7 +206,7 @@ body{
     
     border: 0px
 }
-.baner-page-right-form__button:hover{
+.baner-page-right-form__button_hover:hover{
     cursor: pointer; 
     border-radius: 0px 0px 10px 10px;
     background: #AB4949;
