@@ -1,9 +1,9 @@
 *{
     box-sizing:border-box
 }
-body{
+/* body{
     display: block;
-}
+} */
 ::placeholder{
     color: #BDBDBD;
     font-family: Open Sans;
@@ -14,25 +14,25 @@ body{
 }
 .banner{
     width: 100%;
-    height: 1026px;
+    height: auto;
     
 }
-.baner-img{
+.banner-img{
     width: 100%;
     height: 951px;
     position: relative;
     background:rgba(0, 0, 0, 0.473)
     
 }
-.baner-img__pictures{
+.banner-img__pictures{
     width: 100%;
     height: 951px;
     position: absolute;
     object-fit: cover;
-    z-index: 0;
+    z-index: -1;
 
 }
-.baner-page{
+.banner-page{
     width: 1170px;
     margin: 0 auto;
     height: 951px;
@@ -52,11 +52,11 @@ body{
 }
 
 
-.baner-page-left-content__logo{
+.banner-page-left-content__logo{
     margin-bottom: 73px;
 
 }
-.baner-page-left-content__title{
+.banner-page-left-content__title{
     color: #FFF;
     font-family: Raleway;
     font-size: 48px;
@@ -66,7 +66,7 @@ body{
     text-transform: uppercase;
     margin-bottom: 55px;
 }
-.baner-page-left-content__subtitle{
+.banner-page-left-content__subtitle{
     width: 270px;
     color: #FFF;
     font-family: Raleway;
@@ -76,14 +76,14 @@ body{
     line-height: normal;
     margin-bottom: 42px;
 }
-.baner-page-left-content__line{
+.banner-page-left-content__line{
     width: 170px;
     height: 1px;
     background-color: #FFF;
     /* margin: 0 auto; */
     margin-bottom: 42px;
 }
-.baner-page-left-content__link{
+.banner-page-left-content__link{
     color: #FFF;
     display: flex;
     align-items: center;
@@ -100,30 +100,32 @@ body{
     width: 270px;
     height: 58px;
 }
-.baner-page-left-content__link_hover:hover{
+.banner-page-left-content__link_hover:hover{
     border: 2px solid #EC7979;
     color: #EC7979;
 }
 
-.baner-page-right{
+.banner-page-right{
     width: 500px;
     height: 951px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    /* display: block; */
     
 }
-.baner-page-right-content{
+.banner-page-right-content{
     width: 470px;
     height: 450px;
     border-radius: 10px;
     background: #FFF;
     margin-top: 207px;
     position: relative;
-    left: 30px;
+    /* left: 30px; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.baner-page-right-content-text{
+.banner-page-right-content-text{
         width: 367px;
     height: 90px;
     display: flex;
@@ -132,7 +134,7 @@ body{
     margin-bottom: 45px;
 
 }
-.baner-page-right-content__title{
+.banner-page-right-content__title{
     /* width: 367px;
     height: 90px; */
     color: #333;
@@ -148,7 +150,7 @@ body{
     
     
 }
-.baner-page-right-content__allocation{
+.banner-page-right-content__allocation{
     color: #EC7979;
     font-family: Open Sans;
     font-size: 24px;
@@ -158,12 +160,12 @@ body{
     text-transform: uppercase;
 
 }
-.baner-page-right-form{
+.banner-page-right-form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.baner-page-right-form-style{
+.banner-page-right-form-style{
     display: flex;
     flex-direction: column;
     width: 370px;
@@ -171,7 +173,7 @@ body{
     margin-bottom: 33px;
 
 }
-.baner-page-right-form__name{
+.banner-page-right-form__name{
     width: 370px;
     height: 35px;
     border: 0px;
@@ -179,19 +181,19 @@ body{
     outline: none;
 
 }
-.baner-page-right-form__line{
+.banner-page-right-form__line{
     width: 370px;
     height: 1px;
     background: #BDBDBD;
 
 }
-.baner-page-right-form__data{
+.banner-page-right-form__data{
     width: 370px;
     height: 35px;
     border: 0px;
     outline: none;
 }
-.baner-page-right-form__button{
+.banner-page-right-form__button{
     color: #FFF;
     text-align: center;
     font-family: Open Sans;
@@ -206,12 +208,132 @@ body{
     
     border: 0px
 }
-.baner-page-right-form__button_hover:hover{
+.banner-page-right-form__button_hover:hover{
     cursor: pointer; 
     border-radius: 0px 0px 10px 10px;
     background: #AB4949;
 
 }
-.baner-page-right-form-style_margin{
+.banner-page-right-form-style_margin{
     margin-bottom: 75px;
+}
+
+
+@media (max-width:1190px) {
+    
+    .banner-img{
+        width: 100%;
+    }
+    .banner-page{
+        width: 100%;
+        
+        height: 951px;
+
+
+    }
+    .banner-page-right{
+        width: 100%;
+        justify-content: center;
+    }
+    .banner-page-left-content{
+        width: 100%;
+        padding-left: 10px;
+
+    }
+}
+@media (max-width:1000px) {
+    .banner-page-right-content{
+        width: 398px;
+        height: 450px;
+    }
+    .banner-page-right-form__button{
+        width: 398px;
+    }
+}
+@media (max-width:850px) {
+    .banner-page{
+    flex-direction: column;
+    }
+    .banner-page-right-content{
+        margin-top: 10px;
+    }
+    .banner-page-left-content__logo{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .banner-page-left-content__title{
+        text-align: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .banner-page-left-content__line{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .banner-page-left-content__subtitle{
+        text-align: center;
+        width: 100%;
+    }
+    .banner-page-left-content__link{
+        margin: 0 auto;
+    }
+    .banner-page-right-content{
+        width: 470px;
+        height: 450px;
+    }
+    .banner-page-right-form__button{
+        width: 470px;
+    }
+
+}
+@media (max-width:500px) {
+    .banner-page-right-content{
+        width: 288px;
+        height: 381px;
+    }
+    .banner-page-right-form__button{
+        width: 288px;
+    }
+    .banner-page-right-form__name{
+        width: 288px;
+    }
+    .banner-page-right-form__line{
+        width: 100%;
+    }
+    .banner-page-right-content-text{
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .banner-page-right-form-style{
+        align-items:center;
+        width: 100%;
+    }
+    .banner-page-right-form{
+        width: 288px;
+        height: 381px;
+    }
+    .banner-page-right-form__data{
+        width: 288px;
+    }
+    .banner-page-left-content{
+        padding: 0px;
+    }
+    
+}
+@media (max-width:380px) {
+    .banner-page-left-content__subtitle{
+        margin-bottom: 0px;
+    }
+    .banner-page-left-content__title{
+        margin-bottom: 0px;
+        font-size: 35px;
+        
+    }
+    .banner-page-right-form__button{
+        width: 100%;
+    }
+    
 }

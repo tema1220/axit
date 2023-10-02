@@ -5,19 +5,19 @@ body{
     display: block;
 }
 .pricing{
-    width: 100%;
+    /* width: 100%; */
     background-color: #F5F5F5;
 }
 .pricing-page{
     width: 1170px;
     margin: 0 auto;
 }
-.page-subject{
+.pricing-subject{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.page-subject__title{
+.pricing-subject__title{
     color: #000;
     text-align: center;
     font-family: Raleway;
@@ -36,14 +36,14 @@ body{
     align-items: center;
     justify-content:center
 }
-.page-subject__line{
+.pricing-subject__line{
     width: 170px;
     height: 1px;
     background-color: #EC7979;
     margin: 0 auto;
     margin-bottom: 40px;
 }
-.page-subject__subtitle{
+.pricing-subject__subtitle{
     color: #86878B;
     text-align: center;
     font-family: Raleway;
@@ -139,3 +139,78 @@ bottom: 20px;
 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+@media (max-width:1190px) {
+    .pricing-page{
+        width: 100%;
+    }
+    .pricing-subject{
+        width: 100%;
+    }
+    .pricing-subject__title{
+        width: 100%;
+    }
+    .pricing-subject__subtitle{
+        width: 100%;
+    }
+    .pricing-page-content{
+        width: 100%;
+    }
+    .pricing-page-content-collum{
+        width: 330px;
+    }
+    .pricing-page-content-collum__title{
+        width: 100%;
+    }
+    .pricing-page-content-collum__subtitle{
+        width: 100%;
+    }
+    .pricing-page-content-collum__text{
+        width: 100%;
+    }
+    .pricing-page-content-collum__content{
+        width: 100%;
+    }
+
+}
+@media (max-width:1050px) {
+    .pricing-page-content-collum{
+        width: 300px;
+    }
+    
+}
+@media (max-width:930px) {
+    .pricing-page-content-collum{
+        width: 280px;
+    }
+    
+}
+@media (max-width:880px) {
+    .pricing-page-content-collum{
+        width: 260px;
+    }
+    .pricing-subject__title{
+        height: 100px;
+    }
+    .pricing-subject__subtitle{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:880px) {
+
+    .pricing-subject__title{
+        height: 70px;
+    }
+    .pricing-subject__subtitle{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:790px) {
+    .pricing-page-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-page-content-collum{
+        margin-bottom: 20px;
+        width: 280px;
+    }
+}

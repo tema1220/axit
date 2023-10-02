@@ -14,12 +14,12 @@ body{
     margin: 0 auto;
     background-color: #FFFFFF;
 }
-.page-subject{
+.awesome-subject{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.page-subject__title{
+.awesome-subject__title{
     color: #000;
     text-align: center;
     font-family: Raleway;
@@ -38,14 +38,14 @@ body{
     align-items: center;
     justify-content:center
 }
-.page-subject__line{
+.awesome-subject__line{
     width: 170px;
     height: 1px;
     background-color: #EC7979;
     margin: 0 auto;
     margin-bottom: 40px;
 }
-.page-subject__subtitle{
+.awesome-subject__subtitle{
     color: #86878B;
     text-align: center;
     font-family: Raleway;
@@ -101,6 +101,79 @@ margin-left: 8px;
     line-height: normal;
     width: 370px;
     height: 105px;
+}
+@media (max-width:1190px) {
+    .awesome-page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .nav-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .awesome-subject__title{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .awesome-subject__subtitle{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .awesome-subject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+    .nav-box__img{
+        display: flex;
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+    .nav-box__link{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-box__text{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:600px) {
+    .nav{
+        flex-direction: column;
+
+    }
+    .nav-box{
+        margin: 0;
+    }
+    
+}
+@media (max-width:1170px) {
+    
 }
 
 

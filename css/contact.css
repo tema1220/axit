@@ -14,15 +14,18 @@ body{
 }
 .contact{
     width: 100%;
-    height: 722px;
+    /* height: 722px; */
 }
 .contact-page{
     width: 1170px;
     margin: 0 auto;
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
 .contact-page-form{
 display: block;
+margin-bottom: 10px;
 }
 .contact-page-form-data{
     display: flex;
@@ -37,6 +40,7 @@ display: block;
 .contact-page-form-data-left-style{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .contact-page-form-data-left__name{
     width: 571px;
@@ -104,4 +108,98 @@ display: block;
 }
 .contact-page-form-data-bottom__button_hover:hover{
     background: #AB4949;
+}
+.contact-page-subject__title{
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 1170px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.contact-page-subject__line{
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.contact-page-subject__subtitle{
+    color: #86878B;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1170px;
+    height: 21px;
+    margin-bottom: 73px;
+}
+@media (max-width:1200px) {
+    .contact-page-subject__title{
+        width: 100%;
+    }
+    .contact-page{
+        width: 100%;
+    }
+    .contact-page-subject__subtitle{
+        width: 100%;
+    }
+    .contact-page-form-data-right{
+        width: 100%;
+    }
+    .contact-page-form-data-left{
+        width: 100%;
+    }
+    .contact-page-form-data-left__name{
+        width: 100%;
+    }
+    .contact-page-form-data-left__line{
+        width: 100%;
+    }
+    .contact-page-form-data-left__email{
+        width: 100%;
+    }
+
+    .contact-page-form-data-right__message{
+        width: 100%;
+    }
+    .contact-page-form-data-right__line{
+        width: 100%;
+    }
+    .contact-page-form-data-left__password{
+        width: 100%;
+    }
+}
+@media (max-width:990px) {
+    .contact-page-form-data{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .contact-page-form-data-right{
+        position: relative;
+        right: 10px;
+    }
+    
+}
+@media (max-width:420px) {
+    .contact-page-form-data-bottom__button{
+        width: 220px;
+    }
+    
 }

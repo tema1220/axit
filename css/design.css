@@ -92,3 +92,23 @@ body{
     color: #EC7979;
     border: 2px solid #EC7979;
 }
+@media (max-width:1190px) {
+    .design{
+        height: auto;
+    }
+    .design-page{
+        width: 100%;
+    }
+    .design-page-content__title{
+        width: 100%;
+    }
+    .design-page-content__subtitle{
+        width: 100%;
+    }
+}
+@media (max-width:390px) {
+    .design-page-content__link{
+        width: 200px ;
+    }
+    
+}

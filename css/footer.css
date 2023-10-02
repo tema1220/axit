@@ -33,3 +33,36 @@ body{
     justify-content: space-between;
     margin-bottom: 30px;
 }
+@media (max-width:1190px) {
+    .footer{
+        height: auto;
+    }
+    .footer-page{
+        width: 100%;
+        /* height: auto; */
+    }
+    
+}
+@media (max-width:490px) {
+    /* .footer-page{
+        height: auto;
+    } */
+    .footer-page-media{
+        width: 100%;
+    }
+    
+}
+@media (max-width:370px) {
+    .footer-page-media__icon{
+        width: 26px;
+        height: 26px;
+    }
+
+    .footer-page-media__svg{
+        width: 24px;
+        height: 24px;
+    }
+    .footer-page-content__text{
+        font-size: 14px;
+    }
+}
