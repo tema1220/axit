@@ -1,9 +1,3 @@
-*{
-    box-sizing:border-box
-}
-body{
-    display: block;
-}
 .footer {
     width: 100%;
     height: 164px;
@@ -41,16 +35,11 @@ body{
         width: 100%;
         /* height: auto; */
     }
-    
 }
 @media (max-width:490px) {
-    /* .footer-page{
-        height: auto;
-    } */
     .footer-page-media{
         width: 100%;
     }
-    
 }
 @media (max-width:370px) {
     .footer-page-media__icon{

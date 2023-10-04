@@ -1,9 +1,3 @@
-*{
-    box-sizing:border-box
-}
-body{
-    /* display: block; */
-}
 .axit{
     width: 100%;
     height: 75px;
@@ -41,10 +35,8 @@ body{
     margin-right: 24px;
 }
 .axit-page-menu{
-
     position: relative;
     display: inline-block;
-
 }
 .axit-page-men__button{
     background-color: #4CAF50;
@@ -66,7 +58,6 @@ body{
     padding: 16px;
     font-size: 16px;
     border: none;
-
 }
 .axit-page-menu{
     position: relative;
@@ -74,7 +65,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .axit-page-nav__link-hover:hover{
     background-color:#EC7979;
 }
@@ -87,15 +77,8 @@ body{
     }
 }
 .axit-page-menu{
-
     display: none;
 }
-
-/* @media (max-width:1170px) {
-    .axit-page{
-        width: 100%;
-    }
-} */
 @media (max-width:1190px) {
     .axit-page{
         width: 100%;
@@ -129,12 +112,10 @@ body{
         display: flex;
         flex-shrink: 1;
     }
-
     .axit-page{
         display: flex;
         justify-content: space-around;
-
-}
+    }
 }
 @media (max-width:500px) {
     .axit-page-nav{
@@ -145,14 +126,11 @@ body{
     .axit-page-nav{
         display: none;
     }
-
     .axit-page-menu{
         display: initial;
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        
-
     }
     .axit-page-menu-active:active{
         width: 60px;

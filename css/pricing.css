@@ -1,11 +1,4 @@
-*{
-    box-sizing:border-box
-}
-body{
-    display: block;
-}
 .pricing{
-    /* width: 100%; */
     background-color: #F5F5F5;
 }
 .pricing-page{
@@ -62,15 +55,11 @@ body{
 .pricing-page-content-collum{
     display: flex;
     flex-direction: column;
-    /* margin-right: 30px; */
     width: 370px;
     height: 510px;
     margin-bottom: 50px;
     align-items:center
 }
-/* .pricing-page-content-collum__boxshadow{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-} */
 .pricing-page-content-collum__title{
     display: flex;
     align-items: center;
@@ -138,7 +127,6 @@ position: relative;
 bottom: 20px;
 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
 @media (max-width:1190px) {
     .pricing-page{
         width: 100%;
@@ -170,19 +158,16 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     .pricing-page-content-collum__content{
         width: 100%;
     }
-
 }
 @media (max-width:1050px) {
     .pricing-page-content-collum{
         width: 300px;
     }
-    
 }
 @media (max-width:930px) {
     .pricing-page-content-collum{
         width: 280px;
     }
-    
 }
 @media (max-width:880px) {
     .pricing-page-content-collum{
@@ -196,7 +181,6 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 }
 @media (max-width:880px) {
-
     .pricing-subject__title{
         height: 70px;
     }

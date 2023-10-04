@@ -1,13 +1,6 @@
-*{
-    box-sizing:border-box
-}
-body{
-    display: block;
-}
 .awesome{
     width: 100%;
     margin-top: 4px;
-    
 }
 .awesome-page{
     width: 1170px;
@@ -61,7 +54,6 @@ body{
     width: 100%;
     display: inline-block;
 }
-
 .nav-box{
 width: 370px;
 display: inline-block;
@@ -108,13 +100,11 @@ margin-left: 8px;
         flex-direction: column;
         width: 100%;
     }
-    
     .nav{
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
     }
     .nav-box{
         width: 100%;
@@ -130,7 +120,6 @@ margin-left: 8px;
         display: flex;
         justify-content: center;
         width: 100%;
-        
     }
     .awesome-subject__subtitle{
         display: flex;
@@ -160,20 +149,16 @@ margin-left: 8px;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: auto;
     }
 }
 @media (max-width:600px) {
     .nav{
         flex-direction: column;
-
     }
     .nav-box{
         margin: 0;
     }
-    
-}
-@media (max-width:1170px) {
-    
 }
 
 

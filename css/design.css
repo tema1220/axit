@@ -1,9 +1,3 @@
-*{
-    box-sizing:border-box
-}
-body{
-    display: block;
-}
 .design{
     width: 100%;
     height: 442px;
@@ -110,5 +104,4 @@ body{
     .design-page-content__link{
         width: 200px ;
     }
-    
 }
